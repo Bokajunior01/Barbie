@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+:root {
+    
+
+/* Colors: */
+--branco: #F2EAD3;
+--amarelo: #DFD7BF;
+--bege: #A4907C;
+--marrom: #3F2305;
+--branco2: #F2F2F2;
+--cinza: #333333;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif; ;
+}
+
+/* Header */
+
+header{
+    background-color: var(--marrom);
+    color: var(--branco);
+}
+
+menu {
+    max-width: 1080px;  
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}   
+.menu-opcoes{
+    display: flex;
+    list-style: none;
+}
+.menu-opcoes li{
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+    
+}
+.menu-opcoes li:hover{
+    text-decoration: underline;
+}
+
+/* filme */
+section{
+    background-color: #DFD7BF;
+}
+.conteudo{
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 0;
+}
+.conteudo img{
+    width: 400px;
+
+}
+.filmedescricao {
+    max-width: 600px;
+    width: 100%;
+    
+}
+.titulodofilme{
+    font-size:48px;
+    color: var(--marrom);
+}
+.titulodofilme span {
+    color: var(--bege);
+    font-weight: normal;
+}
+.blocotitulo{
+    font-size: 24px;
+    color: var(--marrom);
+
+}
+.blocotexto{
+    font-size: 24px;
+    color: var(--cinza);
+
+}
+.blocodetexto{
+    margin: 15px 0;
+
+}
+.detalhesfilmes{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+
+}
+.conteudo2{
+    font-size: 20px;
+    max-width: 1200px;
+    margin: 20 auto;
+
+
+}
+.vermais{
+    font-size: 20px;
+    padding: 10px;
+    color: var(--branco);
+    background-color: var(--marrom);
+    border-radius: 500px;
+    align-items: center;
+    margin: 10px;
+    color: #DFD7BF;
+    
+
+}
+.textoresenha{
+    
+    font-size: 20px;
+    background-color: var(--amarelo);
+    max-width: 1080px;  
+    
+ 
+    padding: 30px 0;
+    list-style: none;
+
+}
+.TituloResenha{
+    font-size: 35px;
+    margin-left: 400px;
+    padding: 25px;
+  
+
+}
+.menu2{
+    
+    
+    
+}   
+footer{
+    background-color: #3F2305;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+
+}
+.menuopcoes2 li{
+    display: flex;
+    list-style: none;
+
+
+}
+.menu4{
+ 
+}
+.font{
+background-color: ;
+
+
+}
+.textoresenha2{
+    font-size: 20px;
+    background-color: var(--amarelo);
+    text-align: justify;
+    max-width: 800px;
+    height: 350px;  
+    margin: 500px;
+
+}
+.vermais2{
+    font-size: 20px;
+    padding: 10px;
+    color: var(--branco);
+    background-color: var(--marrom);
+    border-radius: 500px;
+    align-items: center;
+    margin: 10px;
+    color: #DFD7BF;
+    
+}
+.textoelenco{
+    font-size: 35px;
+    
+}
+.elencoevermais2{
+    font-size: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 500px;
+    align-items: center;
+    margin: 10px;
+    font-size: 35px;
+    margin-left: 360px;
+    font-weight: bold;
+    
+}
+.elencoevermais2 img{
+    margin: 10px;
+    padding: 0px;
+    max-width: 800px;
+    width: 200px;
+
+}
+.descer{
+    margin: 100px;
+
+}
+.menu2{
+    max-width: 1080px;  
+    width: 100%;
+    margin: 0 auto;   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+    
+}
+.menu2 li{
+    
+}
+.menu3{
+    display: grid; 
+    grid-template-columns: 1fr  1fr  1fr;
+    list-style: none;
+    color: #F2EAD3;
+    font-size: 20px;
+    font-family: "League Spartan", sans-serif; 
+    
+    
+
+}
+.nomes{
+    color: #333333;
+    font-size: 20px;
+    
+}
+
+
